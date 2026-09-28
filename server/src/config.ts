@@ -5,7 +5,7 @@ dotenv.config({ path: path.resolve(__dirname, '../../.env') });
 dotenv.config(); // fallback
 
 export const CONFIG = {
-  PORT: parseInt(process.env.PORT || '5000', 10),
+  PORT: parseInt(process.env.PORT || '5001', 10),
   HOST: process.env.HOST || '127.0.0.1',
   DATABASE_TYPE: process.env.DATABASE_TYPE || 'sqlite',
   DB_FILE: process.env.DB_FILE || path.resolve(__dirname, '../../salesmind.db'),
