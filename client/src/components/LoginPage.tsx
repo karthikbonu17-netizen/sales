@@ -150,7 +150,7 @@ export const LoginPage: React.FC<LoginPageProps> = ({ onLoginSuccess }) => {
           radial-gradient(ellipse 65% 55% at 50% 15%, rgba(217, 119, 6, 0.28) 0%, transparent 60%),
           radial-gradient(ellipse 55% 45% at 85% 85%, rgba(245, 158, 11, 0.18) 0%, transparent 55%),
           linear-gradient(180deg, rgba(12, 10, 6, 0.78) 0%, rgba(18, 14, 8, 0.88) 100%),
-          url('/bg-chart.jpg') center/cover no-repeat fixed
+          url('./bg-chart.jpg') center/cover no-repeat fixed
         `,
       }}>
         {/* Replay Bitcoin Intro Button */}
@@ -268,7 +268,7 @@ export const LoginPage: React.FC<LoginPageProps> = ({ onLoginSuccess }) => {
               animation: 'bitcoinGlow 3s ease-in-out infinite alternate'
             }}>
               <img 
-                src="/bitcoin-gold.jpg" 
+                src="./bitcoin-gold.jpg" 
                 alt="Bitcoin Capital Emblem" 
                 style={{
                   width: '100%',
@@ -800,7 +800,7 @@ export const LoginPage: React.FC<LoginPageProps> = ({ onLoginSuccess }) => {
             }}
           >
             <img 
-              src="/bitcoin-gold.jpg" 
+              src="./bitcoin-gold.jpg" 
               alt="Golden Bitcoin" 
               style={{
                 width: '100%',

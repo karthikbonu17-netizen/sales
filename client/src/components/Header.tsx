@@ -65,7 +65,7 @@ export const Header: React.FC<HeaderProps> = ({
           flexShrink: 0
         }}>
           <img 
-            src="/bitcoin-gold.jpg" 
+            src="./bitcoin-gold.jpg" 
             alt="Capital Bitcoin Logo" 
             style={{
               width: '100%',

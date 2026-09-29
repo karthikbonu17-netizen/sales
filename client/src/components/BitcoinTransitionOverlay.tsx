@@ -126,7 +126,7 @@ export const BitcoinTransitionOverlay: React.FC<BitcoinTransitionOverlayProps> =
 
         {/* The Golden Bitcoin Image */}
         <img
-          src="/bitcoin-gold.jpg"
+          src="./bitcoin-gold.jpg"
           alt="Golden Bitcoin Zoom"
           style={{
             width: '100%',
